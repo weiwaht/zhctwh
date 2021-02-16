@@ -1,0 +1,29 @@
+a {
+  text-decoration: none;
+}
+.el-header {
+  color: #333;
+  text-align: center;
+  line-height: 60px;
+}
+.page-enter-active, .page-leave-active {
+  transition: opacity .5s;
+}
+.page-enter, .page-leave-active {
+  opacity: 0;
+}
+* {
+  font-family: "Helvetica Neue",Helvetica,"Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+}
+.article-container {
+  padding: 10px;
+}
+.article-container p{
+  color: #303133;
+  line-height: 1.5;
+  text-indent: 32px;
+  margin-bottom: 10px;
+}
+.image-center-container {
+  text-align: center;
+}
