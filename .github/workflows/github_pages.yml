@@ -1,0 +1,30 @@
+name: Github Pages
+on: [push]
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: '12'
+      - name: Verify Node.js
+        run: node --version
+      - name: Verify npm
+        run: npm -v
+      - name: Checkout source
+        uses: actions/checkout@v2
+        with:
+          path: source
+      - name: Generate
+        run: |
+          cd ./source
+          npm install
+          npm run build
+          npm run generate
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: ./source/dist
