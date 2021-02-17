@@ -36,7 +36,7 @@ export default Vue.extend({
   },
   head() {
     return {
-      title: process.env.WEBSIDE_NAME
+      title: '中华传统文化'
     }
   }
 })

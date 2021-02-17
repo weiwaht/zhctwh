@@ -53,7 +53,7 @@ export default {
   props: { activeIndex: { type: String, default: '0' } },
   data() {
     return {
-      title: process.env.WEBSIDE_NAME
+      title: '中华传统文化'
     }
   }
 }
