@@ -18,15 +18,15 @@
   "activeIndex": "4",
   "pics": [
     {
-      "src": "/images/hanfu.jpg",
+      "src": "./images/hanfu.jpg",
       "title": "汉服"
     },
     {
-      "src": "/images/zhongshanzhuang.jpg",
+      "src": "./images/zhongshanzhuang.jpg",
       "title": "中山装"
     },
     {
-      "src": "/images/tangzhuang.jpg",
+      "src": "./images/tangzhuang.jpg",
       "title": "唐装"
     }
   ]

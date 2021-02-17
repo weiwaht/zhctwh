@@ -14,11 +14,11 @@
   "activeIndex": "6",
   "pics": [
     {
-      "src": "/images/brucelee.jpg",
+      "src": "./images/brucelee.jpg",
       "title": "武术家李小龙"
     },
     {
-      "src": "/images/tai-chi.jpg",
+      "src": "./images/tai-chi.jpg",
       "title": "太极拳"
     }
   ]

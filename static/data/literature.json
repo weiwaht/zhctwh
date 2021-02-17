@@ -14,15 +14,15 @@
   "activeIndex": "3",
   "pics": [
     {
-      "src": "/images/shijing.jpg",
+      "src": "./images/shijing.jpg",
       "title": "《诗经》"
     },
     {
-      "src": "/images/xiyouji.jpg",
+      "src": "./images/xiyouji.jpg",
       "title": "《西游记》"
     },
     {
-      "src": "/images/kuangrenrijichatu.jpg",
+      "src": "./images/kuangrenrijichatu.jpg",
       "title": "《狂人日记》插图"
     }
   ]

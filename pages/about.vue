@@ -44,7 +44,7 @@ export default Vue.extend({
     }
   },
   mounted() {
-    axios.get('/data/about.json').then((res) => {
+    axios.get('./data/about.json').then((res) => {
       this.activeIndex = res.data.activeIndex
       this.quotes = res.data.quotes
       this.pics = res.data.pics

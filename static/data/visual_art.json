@@ -14,7 +14,7 @@
   "activeIndex": "2-1",
   "pics": [
     {
-      "src": "/images/zhengzaishuxiedesenglv.jpg",
+      "src": "./images/zhengzaishuxiedesenglv.jpg",
       "title": "正在书写的僧侣"
     }
   ]

@@ -5,7 +5,10 @@
     </el-header>
     <el-main>
       <div class="index">
-        <el-image src="/images/index.jpg" fit="contain"></el-image>
+        <el-image
+          :src="require(`~/assets/images/index.jpg`)"
+          fit="contain"
+        ></el-image>
         <p class="p1">中华文化上下五千年，</p>
         <p class="p2">历史悠久，</p>
         <p class="p3">底蕴深厚。</p>

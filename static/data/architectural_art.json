@@ -17,15 +17,15 @@
   "activeIndex": "2-3",
   "pics": [
     {
-      "src": "/images/zhctjz.jpg",
+      "src": "./images/zhctjz.jpg",
       "title": "中国传统建筑"
     },
     {
-      "src": "/images/shfgjz.jpg",
+      "src": "./images/shfgjz.jpg",
       "title": "上海的一处仿古建筑"
     },
     {
-      "src": "/images/whgml.jpg",
+      "src": "./images/whgml.jpg",
       "title": "武汉古庙楼"
     }
   ]

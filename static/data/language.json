@@ -19,7 +19,7 @@
   "activeIndex": "1",
   "pics": [
     {
-      "src": "/images/gedihanzizixingchayi.png",
+      "src": "./images/gedihanzizixingchayi.png",
       "title": "各地汉字字形差异"
     }
   ]

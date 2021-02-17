@@ -66,5 +66,12 @@ export default {
      ** You can extend webpack config here
      */
     extend(config, ctx) {}
+  },
+  router: {
+    base: '/zhctwh/',
+    mode: 'hash'
+  },
+  static: {
+    prefix: '/zhctwh/'
   }
 }

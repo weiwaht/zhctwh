@@ -21,15 +21,15 @@
   "activeIndex": "5",
   "pics": [
     {
-      "src": "/images/zhongcan.jpg",
+      "src": "./images/zhongcan.jpg",
       "title": "中餐"
     },
     {
-      "src": "/images/kuaizi.jpg",
+      "src": "./images/kuaizi.jpg",
       "title": "筷子"
     },
     {
-      "src": "/images/zhongcanzuoweiliyi.jpg",
+      "src": "./images/zhongcanzuoweiliyi.jpg",
       "title": "中餐座位礼仪"
     }
   ]

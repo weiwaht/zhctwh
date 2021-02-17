@@ -26,9 +26,9 @@
   "title": "音乐和表演艺术",
   "activeIndex": "2-2",
   "pics": [
-    { "src": "/images/beijing_opera_production.jpg", "title": "京剧表演" },
-    { "src": "/images/yujubiaoyan.jpg", "title": "豫剧表演" },
-    { "src": "/images/chaoju.jpg", "title": "舞台上的潮剧演员" }
+    { "src": "./images/beijing_opera_production.jpg", "title": "京剧表演" },
+    { "src": "./images/yujubiaoyan.jpg", "title": "豫剧表演" },
+    { "src": "./images/chaoju.jpg", "title": "舞台上的潮剧演员" }
   ],
   "zhctwd": [
     {

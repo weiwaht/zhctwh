@@ -10,7 +10,7 @@
           <p v-for="p in article" :key="p" v-text="p"></p>
           <div class="image-center-container">
             <el-image
-              src="/images/snipaste_2020-06-07_16-30-50.png"
+              :src="require(`~/assets/images/snipaste_2020-06-07_16-30-50.png`)"
               :fit="container"
             ></el-image>
           </div>
@@ -47,7 +47,7 @@ export default Vue.extend({
     }
   },
   mounted() {
-    axios.get('/data/language.json').then((res) => {
+    axios.get('./data/language.json').then((res) => {
       this.activeIndex = res.data.activeIndex
       this.article = res.data.article
       this.pics = res.data.pics

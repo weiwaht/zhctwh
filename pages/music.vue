@@ -47,7 +47,7 @@ export default Vue.extend({
     }
   },
   mounted() {
-    axios.get('/data/music.json').then((res) => {
+    axios.get('./data/music.json').then((res) => {
       this.activeIndex = res.data.activeIndex
       this.article = res.data.article
       this.pics = res.data.pics
